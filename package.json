@@ -1,0 +1,23 @@
+{
+  "name": "verifyiamrolepolicy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "verifyIAMRolePolicy.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomgasper/verifyIAMRolePolicy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomgasper/verifyIAMRolePolicy/issues"
+  },
+  "homepage": "https://github.com/tomgasper/verifyIAMRolePolicy#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

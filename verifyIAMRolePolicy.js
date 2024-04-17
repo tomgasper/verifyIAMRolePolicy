@@ -20,12 +20,13 @@ function verifyIAMRolePolicy(inputJSON) {
             }
         }
 
-        // If no invalid resource found, return true
         return true;
         
     } catch (error) {
         // In case of parsing errors or invalid JSON structure we are throwing an error
-        // This could be modified to handle the error more gently
+        // This section block could be modified to handle the error more gently
         throw new Error(`Error parsing JSON or invalid structure: ${error.message}`);
     }
 }
+
+module.exports = { verifyIAMRolePolicy };
