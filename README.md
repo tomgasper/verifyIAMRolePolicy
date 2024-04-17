@@ -8,7 +8,7 @@ The verification logic is implemented in TypeScript and can be executed in a web
 ### Step 1: Clone the Repository
 
 Clone this repository to your local machine using:
-`git clone https://github.com/tomgasper/verifyIAMRolePolicy.git`
+`git clone https://github.com/tomgasper/verifyIAMRolePolicy.git`\
 `cd verifyIAMRolePolicy`
 
 ### Step 2: Install Dependencies
