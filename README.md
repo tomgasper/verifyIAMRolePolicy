@@ -25,6 +25,10 @@ This command compiles the TypeScript files to JavaScript and places them in the 
 Open the `index.html` file in your web browser.
 Open the Web Console and you will see the result of the example verification.
 
+### Step 5: Run the Tests
+
+`npm run test`
+
 ### Explanation of the Example Script
 
 The script `exampleVerification.js` included in the HTML file performs the following actions:
