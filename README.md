@@ -17,7 +17,7 @@ Clone this repository to your local machine using:\
 
 ### Step 3: Build the Project
 
-`npm run build`
+`npm run build`\
 This command compiles the TypeScript files to JavaScript and places them in the `dist` directory.
 
 ### Step 4: Run the Example
