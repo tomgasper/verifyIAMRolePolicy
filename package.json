@@ -4,7 +4,9 @@
   "description": "",
   "main": "verifyIAMRolePolicy.js",
   "scripts": {
-    "test": "jest"
+    "test": "vitest run",
+    "build": "tsc",
+    "postbuild": "cpx \"./example/*.json\" dist/example/"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,6 @@
   "homepage": "https://github.com/tomgasper/verifyIAMRolePolicy#readme",
   "devDependencies": {
     "jest": "^29.7.0",
-    "jsdom": "^24.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "vitest": "^1.5.0"
